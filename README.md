@@ -11,7 +11,6 @@ cd build
 cmake ..
 ```
 Then compile the project based on your OS (e.g. on Linux you'd use `make`).
-
 Now you should be able to run the command-line tool as follows:
 ```sh
 ./8ball "<your question here>"
