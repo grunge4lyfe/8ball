@@ -26,7 +26,7 @@ const char* answers[] = {
 };
 
 int main(int argc, char *argv[]) {
-    srand(time(NULL));
+    srand((unsigned int) time(NULL));
 
     if (argc < 2) {
         printf("usage: %s \"<your question here>\"\n", argv[0]);
